@@ -2,14 +2,36 @@
 
 
 if(!empty($_POST)) {
-    // echo  $_POST['text'];
+    
 
-    $sql = "INSERT INTO `posts` (`text`, `category`, `title`, `preview`) VALUES ('" . $_POST['text'] . "', '" . $_POST['category'] . "', '" . $_POST['title'] . "', '" . $_POST['preview'] . "');";
+    if(!empty($_FILES)) {				
+		$uploadDir = $_SERVER['DOCUMENT_ROOT'] . '/uploads/';	// директорія, де зберігаємо завантажені файли
+
+        /* змінній $path за допомогою функції pathinfo передаємо інформацію про шлях до файлу,
+		де $_FILES['prevew']['name'] - оригінальне ім'я файлу на комп'ютері */
+		$path = pathinfo($_FILES['preview']['name']); 
+        
+        
+		/* змінній $previewName присвоюємо нове ім'я для файлу, який загружаємо, де generateRandomString(10) - рядок з 32 рандомних символів,	time() - час загрузки і $ext['extension'] - розширення/тип файлу, що загружаємо */
+		$previewName = generateRandomString(10) . time() . "." . $path['extension'];	
+
+        // змінній $uploadfile передаємо шлях для загрузки файлу на сервері
+		$uploadFile = $uploadDir . $previewName; 
+		
+		if (!move_uploaded_file($_FILES['preview']['tmp_name'], $uploadFile)) { 	// якщо файл не загрузився
+		    echo "Error, file didn't load!\n";					
+		    die();																
+		}
+	}
+
+
+
+    $sql = "INSERT INTO `posts` (`text`, `category`, `title`, `preview`) VALUES ('" . $_POST['text'] . "', '" . $_POST['category'] . "', '" . $_POST['title'] . "', '" . $previewName . "');";
 
     if(mysqli_query($conn, $sql)){
-        echo "<h2>Дані оновлено. <a href='/admin/posts.php'>Повернутись</a></h2>";
+        echo "<h2>Data updated. <a href='/admin/posts.php'>Back</a></h2>";
     } else {
-        echo "Помилка: " . mysqli_error($conn);
+        echo "Error: " . mysqli_error($conn);
     }
     mysqli_close($conn);
     
@@ -23,7 +45,7 @@ if(!empty($_POST)) {
     </div>
     <div class="card-body">
 
-        <form action="?page=add" method="POST">
+        <form action="?page=add" method="POST" enctype="multipart/form-data">
 
             <div class="form-floating">
                 <textarea class="form-control" name="title" placeholder="Write a title here" id="floatingTitleArea" style="height: 60px"></textarea>
@@ -40,7 +62,7 @@ if(!empty($_POST)) {
             <select class="form-select" id="inputGroupSelect01" name="category">
                 <option selected>Choose...</option>
                 <option value="Development">Development</option>
-                <option value="Web Design">Web Design</option>
+                <option value="Design">Design</option>
                 <option value="Marketing">Marketing</option>
                 <option value="Printing">Printing</option>
             </select>

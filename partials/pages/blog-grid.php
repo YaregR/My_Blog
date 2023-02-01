@@ -25,7 +25,7 @@
 			<div class="col-lg-4 col-md-6">
 				<div class="post mb-5">
 					<a class="image-content" href="/?p=blog-single&id=<?php echo $row['id']; ?>">
-						<img src="../../assets/images/blog/minimal-1.jpg" alt="" class="img-fluid">
+						<img src="uploads/<?php echo $row['preview']; ?>" alt="photo" class="img-fluid">
 					</a>
 
 					<div class="post-content">

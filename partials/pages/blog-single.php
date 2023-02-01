@@ -22,7 +22,7 @@
 
 			<div class="col-lg-8">
 				<article class="single-post">
-					<img src="../../assets/images/blog/01.jpg" alt="" class="img-fluid">
+					<img src="uploads/<?php echo $row['preview']; ?>" alt="photo" class="img-fluid">
 
 					<div class="single-post-content mt-4">
 						<div class="post-meta mb-4">
@@ -49,7 +49,7 @@
 					</div>
 				</article>
 
-				<div class="comments bg-secondary p-4 mt-5">
+				<!-- <div class="comments bg-secondary p-4 mt-5">
 					<h4 class="mb-4">Comments</h4>
 
 					<div class="latest-comments">
@@ -106,7 +106,8 @@
 						<a href="#" class="btn btn-main">Post Comment</a>
 						
 					</form>
-				</div>
+				</div> -->
+
 			</div>
 
 
@@ -123,29 +124,25 @@
 
 					<div class="widget mb-5">
 						<h4 class="mb-4 widget-title">Popular Posts</h4>
+
+						<?php
+						$sql = "SELECT * FROM posts LIMIT 3";
+						$result = mysqli_query($conn, $sql);
+							while ($row = $result->fetch_assoc()):		// за домопогою while  перебираємо всі рядки з таблиці posts				
+						?>
+
 						<ul class="list-unstyled">
 							<li class="d-flex mb-4">
-								<img src="../../assets/images/blog/s-1.jpg" alt="" class="img-fluid mr-3">
+								<img src="uploads/<?php echo $row['preview']; ?>" alt="photo" class="img-fluid mr-3" width="100" style="object-fit: cover;">
 								<div class="post-body">
-									<span class="text-capitalize">by mesut Ozil</span>
-									<a href="#"><h5>Elegant Brand Identity for Artistic Glass</h5></a>
-								</div>
-							</li>
-							<li class="d-flex mb-4">
-								<img src="../../assets/images/blog/s-2.jpg" alt="" class="img-fluid mr-3">
-								<div class="post-body">
-									<span class="text-capitalize">by mesut Ozil</span>
-									<a href="#"><h5>Elegant Brand Identity for Artistic Glass</h5></a>
-								</div>
-							</li>
-							<li class="d-flex">
-								<img src="../../assets/images/blog/s-1.jpg" alt="" class="img-fluid mr-3">
-								<div class="post-body">
-									<span class="text-capitalize">by mesut Ozil</span>
-									<a href="#"><h5>Elegant Brand Identity for Artistic Glass</h5></a>
+									
+									<a href="#"><h5><?php echo $row['title']; ?></h5></a>
 								</div>
 							</li>
 						</ul>
+						<?php
+							endwhile;
+						?>	
 					</div>
 
 					<div class="widget category mb-5">
