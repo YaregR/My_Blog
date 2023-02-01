@@ -4,8 +4,8 @@ if(!isset($_SESSION)) {
     session_start();
 }
 
-require($_SERVER['DOCUMENT_ROOT'] . '../configs/db.php');         
-require($_SERVER['DOCUMENT_ROOT'] . '../configs/helpers.php');     
+require($_SERVER['DOCUMENT_ROOT'] . '/configs/db.php');         
+require($_SERVER['DOCUMENT_ROOT'] . '/configs/helpers.php');     
 
     
 $user = getCurrentUser();
