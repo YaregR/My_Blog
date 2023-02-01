@@ -15,16 +15,7 @@
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item  active"><a class="nav-link" href="/?p=home">Home</a></li>
 				<li class="nav-item"><a class="nav-link" href="/?p=about">About Me</a></li>
-
-				<li class="nav-item dropdown active">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-						<ul class="dropdown-menu" aria-labelledby="dropdown02">
-							<li><a class="dropdown-item" href="/?p=portfolio-1">Portfolio Masonary</a></li>
-							<li><a class="dropdown-item" href="/?p=portfolio-2">Portfolio lightbox</a></li>
-							<li><a class="dropdown-item" href="/?p=portfolio-3">Portfolio 2 column</a></li>
-							<li><a class="dropdown-item" href="/?p=portfolio-single">Portfolio Details</a></li>
-						</ul>
-				</li>
+				<li class="nav-item"><a class="nav-link" href="/?p=portfolio">Portfolio</a></li>
 			   	<li class="nav-item"><a class="nav-link" href="?p=blog-grid">Blog</a></li>
 			   	<li class="nav-item"><a class="nav-link" href="/?p=contact">Contact</a></li>
 			   	<li class="nav-item dropdown">

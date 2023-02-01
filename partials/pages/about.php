@@ -28,8 +28,68 @@
 
 <!-- Banner End -->
 
+<!-- Skill Start -->
+<section class="section skills border-top border-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<h3>My skills.</h3>
+			</div>
+
+			<div class="col-lg-8">
+				<div class="progress-bar-content">
+					<div class="progress-label d-flex align-items-center">
+		                <div class="progress-title">HTML</div>
+		                	<span class="progress-bar-units ml-auto">90%</span>
+	            	</div>
+					<div class="progress">
+						  <div class="progress-bar" data-percent="90"></div>
+					</div>
+				</div>
+				<div class="progress-bar-content">
+					<div class="progress-label d-flex align-items-center">
+		                <div class="progress-title">CSS</div>
+		                	<span class="progress-bar-units ml-auto">85%</span>
+	            	</div>
+					<div class="progress">
+						  <div class="progress-bar" data-percent="85"></div>
+					</div>
+				</div>
+				<div class="progress-bar-content">
+					<div class="progress-label d-flex align-items-center">
+		                <div class="progress-title">JavaScript</div>
+		                	<span class="progress-bar-units ml-auto">75%</span>
+	            	</div>
+					<div class="progress">
+						  <div class="progress-bar" data-percent="75"></div>
+					</div>
+				</div>
+				<div class="progress-bar-content">
+					<div class="progress-label d-flex align-items-center">
+		                <div class="progress-title">WordPress</div>
+		                	<span class="progress-bar-units ml-auto">80%</span>
+	            	</div>
+					<div class="progress">
+						  <div class="progress-bar" data-percent="80"></div>
+					</div>
+				</div>
+				<div class="progress-bar-content">
+					<div class="progress-label d-flex align-items-center">
+		                <div class="progress-title">Node.JS</div>
+		                	<span class="progress-bar-units ml-auto">70%</span>
+	            	</div>
+					<div class="progress">
+						  <div class="progress-bar" data-percent="70"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Skill end -->
+
 <!-- About start -->
-<section class="section about border-top border-bottom">
+<section class="section about">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-4 mb-5">
@@ -40,27 +100,27 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="about-info mb-5">
-							<span>January 2015 - August 2018</span>
-							<h4 class="mb-3 mt-1">UI UX Designer at Behance</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum</p>
+							<span>2020 - 2022</span>
+							<h4 class="mb-3 mt-1">Own Project Yard</h4>
+							<p>Search and processing of company orders, quality and production control, communication with customers.</p>
 						</div>
 						<div class="about-info">
-							<span>January 2015 - August 2018</span>
-							<h4 class="mb-3 mt-1">UI UX Designer at Envato</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum</p>
+							<span>2017 - 2020</span>
+							<h4 class="mb-3 mt-1">Technical Director at Bulla</h4>
+							<p>Organization of the printing production process, equipment maintenance, digital printing, order accounting.</p>
 						</div>
 					</div>
 
 					<div class="col-lg-6">
 						<div class="about-info mb-5">
-							<span>January 2015 - August 2018</span>
-							<h4 class="mb-3 mt-1">UI UX Designer at Dribble</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum</p>
+							<span>January 2004 - 2017</span>
+							<h4 class="mb-3 mt-1">Head of printing department at Vis-a-Vis</h4>
+							<p>Organization of the printing production process, digital printing, order accounting.</p>
 						</div>
 						<div class="about-info">
-							<span>January 2015 - August 2018</span>
-							<h4 class="mb-3 mt-1">UI UX Designer at Softinfo</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam nec bibendum mauris. Curabitur quis vehicula leo. Vivamus leo ipsum</p>
+							<span>January 2001 - 2004</span>
+							<h4 class="mb-3 mt-1">Engineer of the reprocenter at Lytton Publishing</h4>
+							<p>Reception of files for printing, output of forms, quality control.</p>
 						</div>
 					</div>
 				</div>
@@ -70,56 +130,7 @@
 </section>
 <!-- About End -->
 
-<!-- Skill Start -->
-<section class="section skills">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4">
-				<h3>My skills.</h3>
-			</div>
 
-			<div class="col-lg-8">
-				<div class="progress-bar-content">
-					<div class="progress-label d-flex align-items-center">
-		                <div class="progress-title">Business Strategy</div>
-		                	<span class="progress-bar-units ml-auto">80%</span>
-	            	</div>
-					<div class="progress">
-						  <div class="progress-bar" data-percent="80"></div>
-					</div>
-				</div>
-				<div class="progress-bar-content">
-					<div class="progress-label d-flex align-items-center">
-		                <div class="progress-title">Design</div>
-		                	<span class="progress-bar-units ml-auto">90%</span>
-	            	</div>
-					<div class="progress">
-						  <div class="progress-bar" data-percent="90"></div>
-					</div>
-				</div>
-				<div class="progress-bar-content">
-					<div class="progress-label d-flex align-items-center">
-		                <div class="progress-title">Digital Strategy</div>
-		                	<span class="progress-bar-units ml-auto">75%</span>
-	            	</div>
-					<div class="progress">
-						  <div class="progress-bar" data-percent="75"></div>
-					</div>
-				</div>
-				<div class="progress-bar-content">
-					<div class="progress-label d-flex align-items-center">
-		                <div class="progress-title">Development</div>
-		                	<span class="progress-bar-units ml-auto">85%</span>
-	            	</div>
-					<div class="progress">
-						  <div class="progress-bar" data-percent="85"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- Skill end -->
 
 <!-- Cta Start -->
 <section class="section-sm pt-0 cta">
@@ -129,7 +140,7 @@
 				<h3 class="text-white mb-0">Want to discuss about any project?</h3>
 			</div>
 			<div class="col-lg-4 text-lg-right mt-5 mt-lg-0">
-				<a href="#" class="btn btn-white">Contact me</a>
+				<a href="/?p=contact" class="btn btn-white">Contact me</a>
 			</div>
 		</div>
 	</div>

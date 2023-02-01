@@ -18,17 +18,8 @@ if(isset($_GET['p'])) {
 		case 'about':
 			$page = 'about';
 			break;
-		case 'portfolio-1':
-			$page = 'portfolio-1';
-			break;
-		case 'portfolio-2':
-			$page = 'portfolio-2';
-			break;
-		case 'portfolio-3':
-			$page = 'portfolio-3';
-			break;	
-		case 'portfolio-single':
-			$page = 'portfolio-single';
+		case 'portfolio':
+			$page = 'portfolio';
 			break;
 		case 'blog-grid':
 			$page = 'blog-grid';

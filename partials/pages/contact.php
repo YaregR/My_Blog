@@ -40,7 +40,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="text-center mb-5 contact-title">
-                    <h2>Contact us</h2>
+                    <h2>Contact me</h2>
                 </div>
 
                 <form id="contact-form" class="contact__form mt-5" method="post" action="mail.php">
