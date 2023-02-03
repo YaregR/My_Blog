@@ -3,7 +3,6 @@
 require($_SERVER['DOCUMENT_ROOT'] . '/partials/header.php');
 require($_SERVER['DOCUMENT_ROOT'] . '/partials/navbar.php');
 
-
 ?>
 
 
@@ -44,8 +43,6 @@ if(isset($_GET['p'])) {
 			break;
 	}
 }
-
-
 
 require($_SERVER['DOCUMENT_ROOT'] . '/partials/pages/' . $page . '.php');
 
