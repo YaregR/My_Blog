@@ -17,13 +17,13 @@
 		            <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
 		          </label>
 		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="design" />UI/UX Design
+		            <input type="radio" name="shuffle-filter" value="design" />Graphic Design
 		          </label>
 		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="branding" />branding
+		            <input type="radio" name="shuffle-filter" value="printing" />Printing
 		          </label>
 		          <label class="btn">
-		            <input type="radio" name="shuffle-filter" value="illustration" />Web Development
+		            <input type="radio" name="shuffle-filter" value="development" />Web Development
 		          </label>
 		           <!-- <label class="btn">
 		            <input type="radio" name="shuffle-filter" value="photo" />Photography
@@ -33,101 +33,246 @@
     	</div>	
 
 		<div class="row shuffle-wrapper portfolio-gallery">
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item"  data-groups="[&quot;design&quot;,&quot;illustration&quot;]">
-		      	<div class="position-relative inner-box">
-		          <div class="image position-relative ">
-	               <img src="../../assets/images/portfolio/1.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0 ">Painting</h5>
-	                      <p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-		      </div>
-	      </div>
+			<div class="col-lg-4 col-6 mb-4 shuffle-item"  data-groups="[&quot;design&quot;,&quot;printing&quot;]">
+					<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/01.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0 ">Door Hanger</h5>
+							<p>Design</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;branding&quot;]">
-	        <div class="position-relative inner-box" >
-	            <div class="image position-relative ">
-	               <img src="../../assets/images/portfolio/bag.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Web app</h5>
-	                      <p>Development</p>
-	                    </a>
-		                </div> 
-		            </div>
-		        </div>
-		      </div>
-	      </div>
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;development&quot;]">
+				<div class="position-relative inner-box" >
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/4.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Web app</h5>
+							<p>Development</p>
+							</a>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="../../assets/images/portfolio/3.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Business </h5>
-	                      <p>marketing</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/02.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Leaflet</h5>
+							<p>design</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;branding&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="../../assets/images/portfolio/m-3.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                      <h5 class="mb-0">Portfolio</h5>
-	                      <p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/03.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Sticker</h5>
+							<p>Design</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;illustration&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="../../assets/images/portfolio/bottle.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                       <h5 class="mb-0">Modern web</h5>
-	                      	<p>Seo</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/04.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Stickers</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
 
-	      <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
-	        <div class="position-relative inner-box">
-	            <div class="image position-relative ">
-	               <img src="../../assets/images/portfolio/6.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
-	                <div class="overlay-box">
-	                  <div class="overlay-inner">
-	                    <a class="overlay-content" href="portfolio-single.html">
-	                       <h5 class="mb-0">Agency web</h5>
-	                      	<p>Design</p>
-	                    </a>
-	                  </div>
-	                </div> 
-	            </div>
-	        </div>
-	      </div>
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/05.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Postcard</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/06.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Leaflet</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/08.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Bag</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/09.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Cards</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/010.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Pointer</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/011.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Brochure</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/012.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Paper Bag</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/013.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Presentation</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/07.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">Leaflet</h5>
+								<p>design</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;printing&quot;]">
+				<div class="position-relative inner-box">
+					<div class="image position-relative ">
+					<img src="../../assets/images/portfolio/015.jpg" alt="portfolio-image" class="img-fluid w-100 d-block">
+						<div class="overlay-box">
+						<div class="overlay-inner">
+							<a class="overlay-content" href="#">
+							<h5 class="mb-0">3D sticker</h5>
+								<p>printing</p>
+							</a>
+						</div>
+						</div> 
+					</div>
+				</div>
+			</div>
+
 	    </div>
 	</div>
 </section>
